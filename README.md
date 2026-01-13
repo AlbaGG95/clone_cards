@@ -1,16 +1,15 @@
-# React + Vite
+# Clone Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto frontend desarrollado como práctica de clase.  
+La aplicación consiste en una interfaz basada en **tarjetas (cards)** creada con **React**, cuyo objetivo es practicar la estructura de un proyecto frontend, el uso de componentes y la maquetación con HTML y CSS.
 
-Currently, two official plugins are available:
+El proyecto se ejecuta en entorno de desarrollo utilizando **Vite**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Levantar el servidor
 
-## React Compiler
+Desde la raíz del proyecto, ejecutar los siguientes comandos:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+Una vez iniciado, el servidor se podrá visualizar en el navegador en la URL indicada por la terminal (normalmente http://localhost:5173).
